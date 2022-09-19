@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: Georgia, serif;
+}
+main {
+    height: 80vh;
+    width: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box {
+    width: 200px;
+    height: 350px;
+    border: solid; 
+    border-color: white;
+    border-width: 5px;
+}
+.box:nth-child(1) {
+    background-color: tomato;
+}
+.box:nth-child(2) {
+    background-color: Burlywood;
+}
+.box:nth-child(3) {
+    background-color: teal;
+}
+.box:nth-child(4) {
+    background-color: Thistle;
+}
+.color-box {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+h2 {
+    position: relative;
+    bottom: -10px;
+}
+h4 {
+    position: relative;
+    bottom: -10px;
+}

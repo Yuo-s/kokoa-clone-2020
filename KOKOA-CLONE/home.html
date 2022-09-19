@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      h1 {
+        color: blue;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+    <form>
+      <main>
+        <label for="First name">First name</label>
+        <input id="First name" required placeholder="First name" type="text" />
+      </main>
+      <main>
+        <label for="Last Name">Last Name</label>
+        <input id="Last Name" required placeholder="Last Name" type="text" />
+      </main>
+      <main>
+        <label for="Email">Email</label>
+        <input id="Email" required placeholder="Email" type="email" />
+      </main>
+      <main>
+        <label for="Username">Username</label>
+        <input id="Username" required placeholder="Username" type="text" />
+      </main>
+      <main>
+        <label for="Password">Password</label>
+        <input
+          id="Password"
+          required
+          placeholder="Password"
+          minlength="10"
+          type="Password"
+        />
+      </main>
+      <main>
+        <label for="Birth date">Birth date</label>
+        <input id="Birth date" required type="date" />
+      </main>
+      <main>
+        <label for="range">How happy are you?</label>
+        <input id="range" type="range" min="0" max="11" />
+      </main>
+      <main>
+        <label for="color">What is your fav. color?</label>
+        <input id="color" type="color" />
+      </main>
+      <main>
+        <input type="submit" value="Create Account" />
+      </main>
+    </form>
+  </body>
+</html>
